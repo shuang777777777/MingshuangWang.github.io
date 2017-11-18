@@ -7,18 +7,40 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>王明爽 | 图片</title>
+<title>王明爽 | 主页 </title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <link href='http://fonts.googleapis.com/css?family=Cagliostro' rel='stylesheet' type='text/css'>
 <link href="./css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!--slider-->
+<link href="./css/camera.css" rel="stylesheet" type="text/css" media="all" />
+    <script type='text/javascript' src="./js/jquery.min.js"></script>
+    <script type='text/javascript' src="./js/jquery.mobile.customized.min.js"></script>
+    <script type='text/javascript' src="./js/jquery.easing.1.3.js"></script> 
+    <script type='text/javascript' src="./js/camera.min.js"></script> 
+      <script>
+		jQuery(function(){
+			
+			jQuery('#camera_wrap_4').camera({
+				height: 'auto',
+				loader: 'bar',
+				pagination: false,
+				thumbnails: true,
+				hover: false,
+				opacityOnGrid: false,
+				imagePath: './images/'
+			});
+
+		});
+	</script>
 </head>
+<!--========================================-->
 <body>
 <div class="wrap">
 <div class="wrapper">
 <div class="logo">
 	<a><h1><font size="6" >欢迎访问!</h1></font></a>
-	<a href="https://shuang777777777.github.io/mingshuangwang.github.io/Pictures.html"><p><font size="4" >English Version</p></font></a>
+	<a href="Pictures.html"><p><font size="4" >English Version</p></font></a>
 </div>
 <div class="header_right">
 	<div class="cssmenu">
@@ -36,101 +58,147 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<div class="clear"></div>
 </div>
 </div>
+
+<div class="fluid_container">
+   <div class="camera_wrap camera_emboss pattern_1" id="camera_wrap_4">
+          <div data-src="./images/IMG_2468.JPG" title="Rokas Lab party"> </div>
+            <div data-src="./images/rainbow.jpg" title="Rainbow"> </div>
+            <div  data-src="./images/IMG_7159.JPG" title="Li lab at Zhejiang University"> </div>
+          <div data-src="./images/party-yan.jpg" title="Party at Yan's home"> </div>
+            <div data-src="./images/music-battle.jpg" title="Music battle at Blemont University"> </div>
+            <div  data-src="./images/football.jpg" title="Professional football match"> </div>
+			 <div  data-src="./images/cloud.jpg" title="Beautiful clouds"> </div>
+
+  </div>
+</div>
+
+
+	<div class="clear"></div>
+<div class="wrap">
+<div class="wrapper">
+<div class="main_text">
+		<!--<h2>Hi, I am Mingshuang</h2> -->
+<!--		<h3>we provide leading intensive courses</h3> -->
+	</div>	
+<!--	<div class="grids_1_of_4">
+				<div class="grid_1_of_4 images_1_of_4 bg1">
+					 <img src="./images/icon1.png">
+				</div>
+				<div class="grid_1_of_4 images_1_of_4 bg2">
+					 <img src="./images/icon2.png">
+				</div>
+				<div class="grid_1_of_4 images_1_of_4 bg3 hide">
+					 <img src="./images/icon3.png">
+				</div>
+				<div class="grid_1_of_4 images_1_of_4 bg4 hide">
+					 <img src="./images/icon4.png">
+				</div>
+			<div class="clear"></div>
+			</div>
+			<div class="section group">
+				<div class="col_1_of_4 span_1_of_4">
+					<h3>Mauris at eratos</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					<div class="text1-nav">
+						<ul>
+						<li><a href="">The standard chunk of</a></li>
+							<li><a href="">Duis a augue euismod</a></li>
+							<li><a href="">The standard of Lorem</a></li>
+							<li><a href="">Duis a augue euismod</a></li>
+					    </ul>
+					</div>
+					<div class="button">
+						<a href="details.html">learn more</a>
+					</div>
+				</div>
+				<div class="col_1_of_4 span_1_of_4">
+					<h3>imperdiet dolor</h3>
+					<p>Ut enim ad minim veniam,laboris commodo consequat.Duis aute dolor in reprehenderit in voluptate velit esse cillum dolore nulla pariatur.</p>
+					<div class="text1-nav">
+						<ul>
+						<li><a href="">The standard chunk of</a></li>
+							<li><a href="">Duis a augue euismod</a></li>
+							<li><a href="">The standard of Lorem</a></li>
+							<li><a href="">Duis a augue euismod</a></li>
+					    </ul>
+					</div>
+					<div class="button">
+						<a href="details.html">learn more</a>
+					</div>
+				</div>
+				<div class="col_1_of_4 span_1_of_4 hide">
+					<h3>Sed porta justjm</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					<div class="text1-nav">
+						<ul>
+						<li><a href="">The standard chunk of</a></li>
+							<li><a href="">Duis a augue euismod</a></li>
+							<li><a href="">The standard of Lorem</a></li>
+							<li><a href="">Duis a augue euismod</a></li>
+					    </ul>
+					</div>
+					<div class="button">
+						<a href="details.html">learn more</a>
+					</div>
+				</div>
+				<div class="col_1_of_4 span_1_of_4 hide">
+					<h3>nisi vulputate</h3>
+					<p>Ut enim ad minim veniam,laboris commodo consequat.Duis aute dolor in reprehenderit in voluptate velit esse cillum dolore nulla pariatur.</p>
+					<div class="text1-nav">
+						<ul>
+						<li><a href="">The standard chunk of</a></li>
+							<li><a href="details.html">Duis a augue euismod</a></li>
+					    </ul>
+					</div>
+						<div class="button">
+						<a href="details.html">learn more</a>
+					</div>
+				</div>
+			<div class="clear"></div>
+			</div>
+	</div>
+	</div>
+	-->
+<!--========================================-->
+<!--
 <div class="main_bg">
 <div class="wrap">
 <div class="wrapper">
-<div class="main">
-<div class="our-staff">
-		<div class="dc-grids">
-				<div class="dc-head">
-					<div class="dc-head-img">
-						<a href="details.html"><img src="./images/dc1.jpg" title="dc-name"></a>
-					</div>
-					<div class="dc-head-info">
-						<h2 class="style">Perspiciatis</h2>
-						<span>totam rem aperiam</span>
-					</div>
-					<div class="clear"> </div>
-					<div class="dc-profile">
-						<p class="para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type.</p>
-						<div class="button1">
-							<a href="details.html" class="btn btn_s">view More</a>
-						</div>
-					</div>
+	<div class="main">
+			<div class="grid_1_of_2 images_1_of_2">
+				<h4><font size="8" >你好，我是王明爽。</font></h4>
+				<p class="para"><font size="6" >2016年6月获得浙江大学植物病理学博士学位。<br/>主要研究方向包括植物病原真菌的分子生物学，系统进化和种群遗传。目前主要以柑橘真菌病害病原为研究对象。</font></p>
+				<div class="button1">
+					<a href="about.html" class="btn btn_s">了解更多</a>
 				</div>
-				<div class="dc-head">
-					<div class="dc-head-img">
-						<a href="details.html"><img src="./images/dc2.jpg" title="dc-name"></a>
-					</div>
-					<div class="dc-head-info">
-						<h2 class="style">Voluptate</h2>
-						<span>totam rem aperiam</span>
-					</div>
-					<div class="clear"> </div>
-					<div class="dc-profile">
-						<p class="para">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content, </p>
-						<div class="button1">
-							<a href="details.html" class="btn btn_s">view More</a>
-						</div>
-					</div>
-				</div>
-				<div class="clear"> </div>
 			</div>
-			<div class="dc-grids">
-				<div class="dc-head">
-					<div class="dc-head-img">
-						<a href="details.html"><img src="./images/dc3.jpg" title="dc-name"></a>
-					</div>
-					<div class="dc-head-info">
-						<h2 class="style">Perspiciatis</h2>
-						<span>totam rem aperiam</span>
-					</div>
-					<div class="clear"> </div>
-					<div class="dc-profile">
-						<p class="para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type.</p>
-						<div class="button1">
-							<a href="details.html" class="btn btn_s">view More</a>
-						</div>
-					</div>
-				</div>
-				<div class="dc-head">
-					<div class="dc-head-img">
-						<a href="details.html"><img src="./images/dc4.jpg" title="dc-name"></a>
-					</div>
-					<div class="dc-head-info">
-						<h2 class="style">Voluptate</h2>
-						<span>totam rem aperiam</span>
-					</div>
-					<div class="clear"> </div>
-					<div class="dc-profile">
-						<p class="para">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content, </p>
-						<div class="button1">
-							<a href="details.html" class="btn btn_s">view More</a>
-						</div>
-					</div>
-				</div>
-				<div class="clear"> </div>
+			<div class="grid_1_of_2 images_1_of_2 img_style">
+				<img src="./images/personal2.jpg" width="80%" height="80%" alt="">
 			</div>
-		</div>
+			<div class="clear"></div>
+	</div>
 </div>
 </div>
 </div>
-</div>
+<!--========================================-->
 <div class="wrap">
 <div class="wrapper">
 	<div class="footer">
 		<div class="social-icons">
 	   		  	<ul>
-			      <li class="icon_1"><a href="#" target="_blank"> </a></li>
-			      <li class="icon_2"><a href="#" target="_blank"> </a></li>
-			      <li class="icon_3"><a href="#" target="_blank"> </a></li>
-			      <li class="icon_4"><a href="#" target="_blank"> </a></li>
+			      <li class="icon_1"><a  target="_blank"> </a></li>
+			      <li class="icon_2"><a  target="_blank"> </a></li>
+			      <li class="icon_3"><a  target="_blank"> </a></li>
+			      <li class="icon_4"><a  target="_blank"> </a></li>
 			      <div class="clear"></div>
 		     </ul>
 	   	 </div>
-		<a href="index.html"><h2>erudite</h2></a>
+		<!--<a href="index.html"><h2>erudite</h2></a>-->
+		<a href="http://www.hitwebcounter.com" target="_blank">
+		<img src="http://hitwebcounter.com/counter/counter.php?page=6808220&style=0006&nbdigits=5&type=ip&initCount=0" title="访问次数" Alt="Free track counters"   border="0" >
+		</a>   
 		<div class="copy">
-			<p class="w3-link">© All Rights Reserved | Design by&nbsp; <a href="http://w3layouts.com/"> W3Layouts</a></p>
+			<p class="w3-link">更新日期：2017年11月18日</a></p>
 		</div>
 	</div>
 </div>
